@@ -1,0 +1,14 @@
+{
+  "name": "내 옷장",
+  "short_name": "내 옷장",
+  "description": "집에 있는 옷을 등록하고 아바타에 입혀보는 가상 옷장",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#faf6f2",
+  "theme_color": "#c8734f",
+  "lang": "ko",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}

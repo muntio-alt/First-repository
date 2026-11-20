@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#c8734f" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-title" content="내 옷장" />
+  <title>내 옷장</title>
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="icon.svg" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1 id="screen-title">내 옷장</h1>
+    <span id="screen-sub" class="sub"></span>
+  </header>
+
+  <main id="app"></main>
+
+  <nav class="tabbar" aria-label="메뉴">
+    <button data-tab="closet" class="active"><span class="ico">👚</span><span>옷장</span></button>
+    <button data-tab="fitting"><span class="ico">🧍</span><span>피팅룸</span></button>
+    <button data-tab="outfits"><span class="ico">✨</span><span>코디북</span></button>
+    <button data-tab="settings"><span class="ico">⚙️</span><span>설정</span></button>
+  </nav>
+
+  <div id="modal-root"></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <script src="app.js"></script>
+</body>
+</html>
